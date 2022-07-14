@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'OpenSans';
-  src: url(../assets/fonts/OpenSans-Regular.ttf);
+  font-family: OpenSans;
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Neucha';
-  src: url(../assets/fonts/Neucha-Regular.ttf);
+  font-family: Neucha;
+  src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
 :root {
@@ -20,7 +20,7 @@
   --blue: #1085c5;
   --font-size: 16px;
   --line-height: 1.6em;
-  --text-color: #2A2626;
+  --text-color: #2a2626;
   --h-line-height: 1.2em;
   --h1: 72px;
   --h2: 60px;
