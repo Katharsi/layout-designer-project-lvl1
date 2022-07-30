@@ -14,7 +14,7 @@
   --light: #f5f4f0;
   --main: #fe8a02;
   --basic-dark: #42413c;
-  --dark: #2a2626;
+  --dark: #2A2626;
   --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
@@ -102,10 +102,6 @@ p {
 
 .orange-style {
   color: var(--main);
-}
-
-.dark-style {
-  color: var(--dark);
 }
 
 .main-toto {
