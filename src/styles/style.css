@@ -33,6 +33,11 @@ body {
   margin: 0 auto;
 
   color: var(--dark);
+
+  font-weight: 400;
+  font-size: var(--font-size);
+  font-family: OpenSans, sans-serif;
+  line-height: var(--line-height);
 }
 
 h1,
@@ -41,7 +46,7 @@ h3 {
   margin: 0;
 
   font-weight: 400;
-  font-family: Neucha, serif;
+  font-family: Neucha, cursive;
   line-height: var(--h-line-height);
 }
 
@@ -59,11 +64,10 @@ h3 {
 
 p {
   margin: 0;
+}
 
-  font-size: var(--font-size);
-
-  font-family: OpenSans, serif;
-  line-height: var(--line-height);
+.margin {
+  margin-top: 15px;
 }
 
 .background {
@@ -91,8 +95,6 @@ p {
 
 .main-position {
   position: relative;
-
-  box-sizing: border-box;
 
   width: 1110px;
 
