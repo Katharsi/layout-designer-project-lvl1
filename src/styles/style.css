@@ -62,6 +62,8 @@ h3 {
   font-size: var(--h3);
 }
 
+/** Секция-1 **/
+
 p {
   margin: 0;
 }
@@ -154,6 +156,8 @@ p {
   background-color: var(--main);
 }
 
+/** Секция-2 **/
+
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -164,17 +168,210 @@ p {
 
 .video-frame {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 
-  display: block;
+  display: flex;
+  justify-content: center;
 
-  height: 376px;
+  box-sizing: border-box;
+
+  height: 469px;
 
   margin: 0 auto;
 }
 
 .video {
-  color: rgb(0 0 0 / 15%);
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
 
-  filter: drop-shadow(0 16px 32px);
+/** Секция-3 **/
+
+#navigation {
+  position: relative;
+  z-index: 1;
+
+  margin-top: -100px;
+  padding-top: 200px;
+
+  background-color: var(--basic-dark);
+}
+
+.card-menu-1,
+.card-menu-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-menu-1 {
+  margin-bottom: 20px;
+}
+
+.card-menu-2 {
+  padding-bottom: 100px;
+}
+
+.white-style {
+  color: var(--white);
+}
+
+.number {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  color: var(--basic-dark);
+
+  font-weight: 400;
+  font-size: 64px;
+
+  font-family: Neucha, sans-serif;
+  font-style: normal;
+
+  line-height: 1;
+}
+
+.border-width {
+  width: 302px;
+}
+
+.card-head {
+  margin: 0;
+  margin-bottom: 10px;
+
+  color: var(--main);
+
+  font-family: Neucha, sans-serif;
+  font-style: normal;
+
+  line-height: var(--h-line-height);
+}
+
+.card-text {
+  color: var(--dark);
+
+  line-height: 26px;
+}
+
+.card-0 {
+  padding: 0 10px 0 0;
+
+  background-color: var(--basic-dark);
+}
+
+.p-card-style {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 52px;
+
+  font-family: Neucha, sans-serif;
+  font-style: normal;
+
+  line-height: var(--h-line-height);
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  padding: 24px;
+
+  background-color: var(--light);
+}
+
+.card-1,
+.card-4 {
+  margin: 0 30px;
+}
+
+.card-2 > .card-text,
+.card-4 > .card-text {
+  margin-bottom: 0;
+}
+
+.card-1:hover {
+  background-color: var(--blue);
+}
+
+.card-1:hover .number {
+  color: var(--light);
+}
+
+.card-1:hover .card-head {
+  color: var(--light);
+}
+
+.card-1:hover .card-text {
+  color: var(--light);
+}
+
+.card-2:hover {
+  background-color: var(--main);
+}
+
+.card-2:hover .number {
+  color: var(--white);
+}
+
+.card-2:hover .card-head {
+  color: var(--white);
+}
+
+.card-2:hover .card-text {
+  color: var(--white);
+}
+
+.card-3:hover {
+  background-color: var(--blue);
+}
+
+.card-3:hover .number {
+  color: var(--light);
+}
+
+.card-3:hover .card-head {
+  color: var(--light);
+}
+
+.card-3:hover .card-text {
+  color: var(--light);
+}
+
+.card-4:hover {
+  background-color: var(--main);
+}
+
+.card-4:hover .number {
+  color: var(--white);
+}
+
+.card-4:hover .card-head {
+  color: var(--white);
+}
+
+.card-4:hover .card-text {
+  color: var(--white);
+}
+
+.card-5:hover {
+  background-color: var(--blue);
+}
+
+.card-5:hover .number {
+  color: var(--light);
+}
+
+.card-5:hover .card-head {
+  color: var(--light);
+}
+
+.card-5:hover .card-text {
+  color: var(--light);
+}
+
+.card-menu-1 > a,
+.card-menu-2 > a {
+  display: contents;
+
+  text-decoration: none;
 }
