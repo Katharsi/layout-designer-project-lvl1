@@ -375,3 +375,55 @@ p {
 
   text-decoration: none;
 }
+
+/** Секция-4 **/
+
+.inline {
+  column-count: 2;
+  column-gap: 100px;
+}
+
+.img-1 {
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.translucent-dark {
+  margin: 0;
+
+  color: var(--translucent-dark);
+
+  font-weight: 400;
+  font-family: Neucha, cursive;
+  font-size: 24px;
+}
+
+.text-style-1 {
+  margin: 0;
+  padding-top: 30px;
+
+  font-family: Neucha, cursive;
+  font-size: var(--h3);
+  line-height: var(--h-line-height);
+}
+
+.margin-posit {
+  position: relative;
+
+  margin: 100px 0 20px;
+}
+
+.lightground {
+  margin: 0;
+  padding: 5px 0 5px 10px;
+
+  color: var(--white);
+
+  font-weight: 700;
+  font-size: 14px;
+
+  line-height: 17px;
+
+  background-color: var(--brown);
+}
