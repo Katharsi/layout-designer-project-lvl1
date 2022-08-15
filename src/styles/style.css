@@ -395,16 +395,16 @@ p {
   color: var(--translucent-dark);
 
   font-weight: 400;
-  font-family: Neucha, cursive;
   font-size: 24px;
+  font-family: Neucha, cursive;
 }
 
 .text-style-1 {
   margin: 0;
   padding-top: 30px;
 
-  font-family: Neucha, cursive;
   font-size: var(--h3);
+  font-family: Neucha, cursive;
   line-height: var(--h-line-height);
 }
 
@@ -426,4 +426,56 @@ p {
   line-height: 17px;
 
   background-color: var(--brown);
+}
+
+/** Секция-5 **/
+
+#premature-optimization {
+  position: relative;
+
+  background-color: var(--brown);
+}
+
+#premature-optimization::before {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--brown);
+
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+.flex {
+  display: flex;
+}
+
+.translucent-white {
+  margin: 0;
+
+  color: var(--translucent-white);
+
+  font-size: 24px;
+  font-family: Neucha, cursive;
+}
+
+.brownground {
+  margin: 0;
+  padding: 5px 0 5px 10px;
+
+  color: var(--brown);
+
+  font-weight: 700;
+  font-size: 14px;
+
+  line-height: 17px;
+
+  background-color: var(--white);
 }
