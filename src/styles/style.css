@@ -435,13 +435,13 @@ p {
 
 /** Секция-5 **/
 
-#premature-optimization {
+.background-2 {
   position: relative;
 
   background-color: var(--brown);
 }
 
-#premature-optimization::before {
+.background-2::before {
   position: absolute;
 
   width: 100%;
@@ -483,29 +483,4 @@ p {
   line-height: 17px;
 
   background-color: var(--white);
-}
-
-/** Секция-7 **/
-
-#hyperbolic-depreciation {
-  position: relative;
-
-  background-color: var(--brown);
-}
-
-#hyperbolic-depreciation::before {
-  position: absolute;
-
-  width: 100%;
-  height: 100%;
-
-  background-color: var(--brown);
-
-  background-image: url("../images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  opacity: 0.1;
-
-  content: "";
 }
