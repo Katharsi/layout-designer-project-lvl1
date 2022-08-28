@@ -484,3 +484,92 @@ p {
 
   background-color: var(--white);
 }
+
+/** Секция-7 **/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pb {
+  padding-bottom: 0;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--basic-dark);
+}
+
+.marg-padd {
+  margin: 0;
+  padding: 55px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 55px;
+}
+
+.email {
+  margin: 38px 0 9px;
+
+  font-size: 18px;
+}
+
+#name {
+  width: 423px;
+  height: 50px;
+
+  padding: 0 0 0 15px;
+
+  border: 1px solid var(--white);
+}
+
+button {
+  width: 70px;
+  height: 52px;
+
+  padding: 15px 25px;
+
+  color: var(--white);
+
+  background-color: var(--main);
+  border: 0 solid;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--main);
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.info {
+  padding-top: 60px;
+}
+
+.contact {
+  margin-top: 16px;
+
+  color: #000;
+
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact:nth-child(3) {
+  margin-bottom: 0;
+  padding-bottom: 111px;
+}
+
+.contact > a {
+  color: var(--blue);
+}
